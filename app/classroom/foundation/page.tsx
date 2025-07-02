@@ -90,21 +90,21 @@ export default function FoundationClassroomPage() {
     {
       name: "Aarav Sharma",
       achievement: "JEE Advanced AIR 45",
-      image: "/imgMotion/Testimonials/testimonial1.webp",
+      image: "/imgMotion/Testimonials/stud1.jpeg",
       foundation: "Started from Class 9th Foundation",
       quote: "Foundation program gave me the confidence and strong base for JEE preparation.",
     },
     {
       name: "Diya Patel",
       achievement: "NEET AIR 89",
-      image: "/imgMotion/Testimonials/testimonial2.webp",
+      image: "/imgMotion/Testimonials/stud2.jpeg",
       foundation: "Class 10th Foundation Graduate",
       quote: "The conceptual clarity from foundation helped me excel in NEET.",
     },
     {
       name: "Rohan Kumar",
       achievement: "Olympiad Gold Medal",
-      image: "/imgMotion/Testimonials/testimonial3.webp",
+      image: "/imgMotion/Testimonials/stud3.jpeg",
       foundation: "Foundation + Olympiad Training",
       quote: "Foundation program developed my problem-solving abilities significantly.",
     },
@@ -332,11 +332,11 @@ export default function FoundationClassroomPage() {
       </section>
 
       {/* Why Choose Foundation at Motion */}
-      <section className="py-20 bg-gradient-to-br from-orange-600 to-orange-800 text-white">
+      <section className="py-20 bg-gradient-to-br from-[#FFE1B6] to-[#FFCF8D]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold mb-6">Why Choose Motion Foundation?</h2>
-            <p className="text-xl text-orange-100 max-w-3xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold mb-6 text-slate-800">Why Choose Motion Foundation?</h2>
+            <p className="text-xl text-slate-700 max-w-3xl mx-auto">
               Comprehensive foundation building approach for academic excellence and competitive exam success
             </p>
           </div>
@@ -374,10 +374,10 @@ export default function FoundationClassroomPage() {
                 description: "Continuous evaluation and feedback for improvement",
               },
             ].map((feature, index) => (
-              <div key={index} className="text-center p-6 bg-white/10 rounded-lg backdrop-blur-sm">
-                <feature.icon className="h-12 w-12 text-orange-300 mx-auto mb-4" />
-                <h3 className="text-xl font-bold mb-3">{feature.title}</h3>
-                <p className="text-orange-100">{feature.description}</p>
+              <div key={index} className="text-center p-6 bg-white/60 rounded-lg shadow-sm">
+                <feature.icon className="h-12 w-12 text-orange-600 mx-auto mb-4" />
+                <h3 className="text-xl font-bold mb-3 text-slate-800">{feature.title}</h3>
+                <p className="text-slate-700">{feature.description}</p>
               </div>
             ))}
           </div>

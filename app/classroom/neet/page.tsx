@@ -77,21 +77,21 @@ export default function NEETClassroomPage() {
     {
       name: "Priya Sharma",
       rank: "AIR 1 NEET 2024",
-      image: "/imgMotion/Testimonials/testimonial1.webp",
+      image: "/imgMotion/Testimonials/stud1.jpeg",
       college: "AIIMS Delhi",
       quote: "Motion's systematic approach and regular tests helped me achieve my dream rank.",
     },
     {
       name: "Rahul Gupta",
       rank: "AIR 45 NEET 2024",
-      image: "/imgMotion/Testimonials/testimonial2.webp",
+      image: "/imgMotion/Testimonials/stud2.jpeg",
       college: "JIPMER Puducherry",
       quote: "The faculty support and study material were exceptional throughout my journey.",
     },
     {
       name: "Ananya Patel",
       rank: "AIR 156 NEET 2024",
-      image: "/imgMotion/Testimonials/testimonial3.webp",
+      image: "/imgMotion/Testimonials/stud3.jpeg",
       college: "KGMU Lucknow",
       quote: "Motion's doubt clearing sessions were crucial for my NEET preparation.",
     },
@@ -318,11 +318,11 @@ export default function NEETClassroomPage() {
       </section>
 
       {/* Why Choose NEET at Motion */}
-      <section className="py-20 bg-gradient-to-br from-green-600 to-green-800 text-white">
+      <section className="py-20 bg-gradient-to-br from-[#E4FDE1] to-[#EFFDEE]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold mb-6">Why Choose Motion for NEET?</h2>
-            <p className="text-xl text-green-100 max-w-3xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold mb-6 text-slate-800">Why Choose Motion for NEET?</h2>
+            <p className="text-xl text-slate-700 max-w-3xl mx-auto">
               Comprehensive preparation strategy designed specifically for medical entrance success
             </p>
           </div>
@@ -360,10 +360,10 @@ export default function NEETClassroomPage() {
                 description: "Daily doubt clearing sessions with expert faculty",
               },
             ].map((feature, index) => (
-              <div key={index} className="text-center p-6 bg-white/10 rounded-lg backdrop-blur-sm">
-                <feature.icon className="h-12 w-12 text-green-300 mx-auto mb-4" />
-                <h3 className="text-xl font-bold mb-3">{feature.title}</h3>
-                <p className="text-green-100">{feature.description}</p>
+              <div key={index} className="text-center p-6 bg-white/60 rounded-lg shadow-sm">
+                <feature.icon className="h-12 w-12 text-green-600 mx-auto mb-4" />
+                <h3 className="text-xl font-bold mb-3 text-slate-800">{feature.title}</h3>
+                <p className="text-slate-700">{feature.description}</p>
               </div>
             ))}
           </div>
@@ -375,7 +375,7 @@ export default function NEETClassroomPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-slate-800 mb-6">Ready to Start Your NEET Journey?</h2>
           <p className="text-xl text-slate-600 mb-8">
-            Join thousands of successful students who achieved their medical dreams with Motion Academy
+            Join thousands of successful students who achieved their medical dreams with Vector Academy
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">

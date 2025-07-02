@@ -119,19 +119,19 @@ export default function MotionAcademyLanding() {
   const successSlides = [
     {
       id: 1,
-      image: "/imgMotion/Sliding/poster1.webp"
+      image: "/imgMotion/Sliding/b1.jpg"
     },
     {
       id: 2,
-      image: "/imgMotion/Sliding/poster2.webp"
+      image: "/imgMotion/Sliding/b2.jpg"
     },
     {
       id: 3,
-      image: "/imgMotion/Sliding/poster3.webp"
+      image: "/imgMotion/Sliding/b3.jpg"
     },
     {
       id: 4,
-      image: "/imgMotion/Sliding/poster4.webp"
+      image: "/imgMotion/Sliding/b4.jpg"
     }
   ]
 
@@ -140,21 +140,21 @@ export default function MotionAcademyLanding() {
       icon: Calculator,
       title: "JEE Preparation",
       description: "Comprehensive coaching for JEE Main & Advanced with expert faculty and proven methodology",
-      color: "bg-blue-50 border-blue-200",
-      iconColor: "text-blue-600",
+      color: "bg-orange-50 border-orange-200 hover:bg-orange-100",
+      iconColor: "text-orange-600",
     },
     {
       icon: Microscope,
       title: "NEET Preparation",
       description: "Complete medical entrance preparation with updated curriculum and practice tests",
-      color: "bg-green-50 border-green-200",
-      iconColor: "text-green-600",
+      color: "bg-orange-50 border-orange-200 hover:bg-orange-100",
+      iconColor: "text-orange-600",
     },
     {
       icon: Medal,
-      title: "Olympiad Training",
-      description: "Specialized training for Mathematics, Physics, Chemistry, and Biology Olympiads",
-      color: "bg-orange-50 border-orange-200",
+      title: "Foundation Program",
+      description: "Strong foundation building for classes 6-10 with focus on concept clarity",
+      color: "bg-orange-50 border-orange-200 hover:bg-orange-100",
       iconColor: "text-orange-600",
     },
   ]
@@ -163,15 +163,15 @@ export default function MotionAcademyLanding() {
     {
       name: "Arjun Sharma",
       result: "AIR 47 in JEE Advanced",
-      image: "/imgMotion/Testimonials/testimonial1.webp",
+      image: "/imgMotion/Testimonials/stud1.jpeg",
       quote:
-        "Motion Academy's structured approach and expert guidance helped me achieve my dream rank. The faculty support was exceptional!",
+        "Vector Academy's structured approach and expert guidance helped me achieve my dream rank. The faculty support was exceptional!",
       college: "IIT Bombay - Computer Science",
     },
     {
       name: "Priya Patel",
       result: "AIR 156 in NEET",
-      image: "/imgMotion/Testimonials/testimonial2.webp",
+      image: "/imgMotion/Testimonials/stud4.jpeg",
       quote:
         "The comprehensive study material and regular mock tests prepared me perfectly for NEET. Highly recommended!",
       college: "AIIMS Delhi - MBBS",
@@ -179,41 +179,41 @@ export default function MotionAcademyLanding() {
     {
       name: "Rohit Kumar",
       result: "Gold Medal - Physics Olympiad",
-      image: "/imgMotion/Testimonials/testimonial3.webp",
+      image: "/imgMotion/Testimonials/stud3.jpeg",
       quote:
-        "Motion Academy's Olympiad program is outstanding. The problem-solving techniques I learned here were game-changing.",
+        "Vector Academy's Olympiad program is outstanding. The problem-solving techniques I learned here were game-changing.",
       college: "International Physics Olympiad Winner",
     },
   ]
 
   const faculty = [
     {
-      name: "Dr. Rajesh Gupta",
+      name: "Dr. rajshree Gupta",
       qualification: "IIT Delhi, PhD Physics",
       experience: "15+ Years",
       subject: "Physics",
-      image: "/imgMotion/Proffesors/prof1.webp",
+      image: "/imgMotion/Proffesors/pro1.jpeg",
     },
     {
       name: "Prof. Meera Singh",
       qualification: "IIT Kanpur, M.Tech",
       experience: "12+ Years",
       subject: "Mathematics",
-      image: "/imgMotion/Proffesors/prof2.webp",
+      image: "/imgMotion/Proffesors/prof3.jpeg",
     },
     {
       name: "Dr. Amit Verma",
       qualification: "AIIMS, MD",
       experience: "10+ Years",
       subject: "Biology",
-      image: "/imgMotion/Proffesors/prof3.png",
+      image: "/imgMotion/Proffesors/prof2.jpeg",
     },
     {
       name: "Prof. Sunita Jain",
       qualification: "IIT Madras, PhD",
       experience: "14+ Years",
       subject: "Chemistry",
-      image: "/imgMotion/Proffesors/prof4.webp",
+      image: "/imgMotion/Proffesors/prof4.jpeg",
     },
   ]
 
@@ -222,20 +222,21 @@ export default function MotionAcademyLanding() {
       <Navigation />
 
       {/* Success Stories Sliding Bar */}
-      <section className="py-8 bg-gradient-to-r from-orange-500 to-red-500">
+      <section className="py-8 bg-white">
         <div className="text-center mb-6">
-          <h2 className="text-2xl sm:text-3xl font-bold text-white mb-2">Our Success Stories</h2>
+          <h2 className="text-2xl sm:text-3xl font-bold text-slate-800 mb-2">Our Success Stories</h2>
         </div>
         <SlidingCarousel 
           items={successSlides} 
           autoPlay={true} 
           interval={3000}
+          showControls={false}
           className="w-full"
         />
       </section>
 
       {/* Hero Section */}
-      <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-slate-50 via-blue-50 to-slate-100 pt-16">
+      <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-white via-orange-50 to-white pt-16">
         <div
           className="absolute inset-0 opacity-40"
           aria-hidden="true"
@@ -247,10 +248,9 @@ export default function MotionAcademyLanding() {
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="max-w-4xl mx-auto">
 
-
             <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-bold text-slate-800 mb-6 leading-tight">
               Transform Your{" "}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-orange-500">
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-500 to-orange-600">
                 JEE/NEET Dreams
               </span>{" "}
               into Reality
@@ -265,7 +265,7 @@ export default function MotionAcademyLanding() {
               <Link href="/demo">
                 <Button
                   size="lg"
-                  className="w-full sm:w-auto bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 text-lg font-semibold rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
+                  className="w-full sm:w-auto bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white px-8 py-4 text-lg font-semibold rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
                 >
                   Book Free Demo
                   <ArrowRight className="ml-2 h-5 w-5" />
@@ -275,7 +275,7 @@ export default function MotionAcademyLanding() {
                 <Button
                   size="lg"
                   variant="outline"
-                  className="w-full sm:w-auto border-2 border-slate-300 text-slate-700 hover:bg-slate-50 px-8 py-4 text-lg font-semibold rounded-lg bg-transparent"
+                  className="w-full sm:w-auto border-2 border-orange-200 text-orange-700 hover:bg-orange-50 px-8 py-4 text-lg font-semibold rounded-lg bg-transparent"
                 >
                   <Play className="mr-2 h-5 w-5" />
                   Start Free Trial
@@ -292,47 +292,17 @@ export default function MotionAcademyLanding() {
                 <p className="text-slate-600 font-medium text-sm sm:text-base">Students Qualified</p>
               </div>
               <div className="text-center">
-                <div className="text-2xl sm:text-3xl md:text-4xl font-bold text-green-600 mb-2">
+                <div className="text-2xl sm:text-3xl md:text-4xl font-bold text-orange-600 mb-2">
                   <AnimatedCounter end={98} suffix="%" />
                 </div>
                 <p className="text-slate-600 font-medium text-sm sm:text-base">Success Rate</p>
               </div>
               <div className="text-center">
-                <div className="text-2xl sm:text-3xl md:text-4xl font-bold text-blue-600 mb-2">
+                <div className="text-2xl sm:text-3xl md:text-4xl font-bold text-orange-600 mb-2">
                   <AnimatedCounter end={200} suffix="+" />
                 </div>
                 <p className="text-slate-600 font-medium text-sm sm:text-base">Expert Faculty</p>
               </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Trust Indicators Bar */}
-      <section className="bg-slate-800 text-white py-4">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex flex-wrap justify-center items-center gap-4 sm:gap-8 text-xs sm:text-sm md:text-base">
-            <div className="flex items-center gap-2">
-              <Users className="h-4 w-4 sm:h-5 sm:w-5 text-orange-400" />
-              <span>
-                <AnimatedCounter end={50000} />+ Students Qualified
-              </span>
-            </div>
-            <div className="flex items-center gap-2">
-              <Trophy className="h-4 w-4 sm:h-5 sm:w-5 text-green-400" />
-              <span>
-                <AnimatedCounter end={98} />% Success Rate
-              </span>
-            </div>
-            <div className="flex items-center gap-2">
-              <BookOpen className="h-4 w-4 sm:h-5 sm:w-5 text-blue-400" />
-              <span>
-                <AnimatedCounter end={200} />+ Faculty Members
-              </span>
-            </div>
-            <div className="flex items-center gap-2">
-              <Award className="h-4 w-4 sm:h-5 sm:w-5 text-yellow-400" />
-              <span>15+ Years Experience</span>
             </div>
           </div>
         </div>
@@ -364,10 +334,12 @@ export default function MotionAcademyLanding() {
                   </div>
                   <h3 className="text-xl sm:text-2xl font-bold text-slate-800 mb-4">{course.title}</h3>
                   <p className="text-slate-600 mb-6 leading-relaxed text-sm sm:text-base">{course.description}</p>
-                  <Button className="w-full bg-slate-800 hover:bg-slate-700 text-white group-hover:bg-orange-500 group-hover:text-white transition-colors duration-300">
-                    Explore Course
-                    <ChevronRight className="ml-2 h-4 w-4" />
-                  </Button>
+                  <Link href={index === 0 ? "/classroom/jee" : index === 1 ? "/classroom/neet" : "/classroom/foundation"}>
+                    <Button className="w-full bg-orange-500 hover:bg-orange-600 text-white transition-colors duration-300">
+                      Explore Course
+                      <ChevronRight className="ml-2 h-4 w-4" />
+                    </Button>
+                  </Link>
                 </CardContent>
               </Card>
             ))}
@@ -376,7 +348,7 @@ export default function MotionAcademyLanding() {
       </section>
 
       {/* Student Success Stories */}
-      <section id="results" className="py-12 sm:py-20 bg-gradient-to-br from-blue-50 to-slate-50">
+      <section id="results" className="py-12 sm:py-20 bg-gradient-to-br from-orange-50 to-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12 sm:mb-16">
             <h2 className="text-2xl sm:text-3xl md:text-5xl font-bold text-slate-800 mb-6">
@@ -391,7 +363,7 @@ export default function MotionAcademyLanding() {
             {testimonials.map((testimonial, index) => (
               <Card
                 key={index}
-                className="bg-white border-0 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
+                className="bg-white border-0 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 hover:bg-gradient-to-br hover:from-white hover:to-orange-50"
               >
                 <CardContent className="p-6 sm:p-8">
                   <div className="flex items-center mb-6">
@@ -404,13 +376,13 @@ export default function MotionAcademyLanding() {
                     />
                     <div>
                       <h4 className="font-bold text-slate-800 text-lg">{testimonial.name}</h4>
-                      <Badge className="bg-green-100 text-green-800 border-green-200 mt-1">{testimonial.result}</Badge>
+                      <Badge className="bg-orange-100 text-orange-800 border-orange-200 mt-1">{testimonial.result}</Badge>
                     </div>
                   </div>
                   <p className="text-slate-600 mb-4 italic leading-relaxed text-sm sm:text-base">
                     "{testimonial.quote}"
                   </p>
-                  <p className="text-sm font-semibold text-blue-600">{testimonial.college}</p>
+                  <p className="text-sm font-semibold text-orange-600">{testimonial.college}</p>
                   <div className="flex items-center mt-4">
                     {[...Array(5)].map((_, i) => (
                       <Star key={i} className="h-4 w-4 text-yellow-400 fill-current" />
@@ -437,7 +409,7 @@ export default function MotionAcademyLanding() {
             {faculty.map((member, index) => (
               <Card
                 key={index}
-                className="bg-white border-0 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 text-center"
+                className="bg-white border-0 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 text-center hover:bg-gradient-to-br hover:from-white hover:to-orange-50"
               >
                 <CardContent className="p-6">
                   <Image
@@ -445,10 +417,10 @@ export default function MotionAcademyLanding() {
                     alt={member.name}
                     width={100}
                     height={100}
-                    className="rounded-full mx-auto mb-4"
+                    className="rounded-full mx-auto mb-4 object-cover aspect-square w-24 h-24"
                   />
                   <h4 className="font-bold text-slate-800 text-lg mb-2">{member.name}</h4>
-                  <p className="text-blue-600 font-semibold mb-2 text-sm">{member.qualification}</p>
+                  <p className="text-orange-600 font-semibold mb-2 text-sm">{member.qualification}</p>
                   <Badge className="bg-orange-100 text-orange-800 border-orange-200 mb-2">{member.subject}</Badge>
                   <p className="text-slate-600 text-sm">{member.experience}</p>
                 </CardContent>
@@ -459,52 +431,52 @@ export default function MotionAcademyLanding() {
       </section>
 
       {/* Live Features */}
-      <section className="py-12 sm:py-20 bg-slate-800 text-white">
+      <section className="py-12 sm:py-20 bg-gradient-to-br from-orange-50 to-white text-slate-800">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12 sm:mb-16">
-            <h2 className="text-2xl sm:text-3xl md:text-5xl font-bold mb-6">Join the Live Learning Experience</h2>
-            <p className="text-lg sm:text-xl text-slate-300 max-w-3xl mx-auto">
+            <h2 className="text-2xl sm:text-3xl md:text-5xl font-bold text-slate-800 mb-6">Join the Live Learning Experience</h2>
+            <p className="text-lg sm:text-xl text-slate-600 max-w-3xl mx-auto">
               Be part of our vibrant learning community with live classes, real-time doubt solving, and interactive
               sessions
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8 text-center">
-            <Card className="bg-slate-700 border-slate-600 text-white">
+            <Card className="bg-white border border-orange-200 shadow-sm hover:shadow-md hover:bg-orange-50 transition-all duration-300">
               <CardContent className="p-6 sm:p-8">
                 <div className="flex items-center justify-center mb-4">
-                  <div className="w-3 h-3 bg-green-400 rounded-full animate-pulse mr-2"></div>
-                  <Users className="h-6 w-6 sm:h-8 sm:w-8 text-green-400" />
+                  <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse mr-2"></div>
+                  <Users className="h-6 w-6 sm:h-8 sm:w-8 text-green-500" />
                 </div>
-                <div className="text-2xl sm:text-3xl font-bold text-green-400 mb-2">
+                <div className="text-2xl sm:text-3xl font-bold text-green-600 mb-2">
                   <LiveCounter />
                 </div>
-                <p className="text-slate-300 text-sm sm:text-base">Students studying right now</p>
+                <p className="text-slate-600 text-sm sm:text-base">Students studying right now</p>
               </CardContent>
             </Card>
 
-            <Card className="bg-slate-700 border-slate-600 text-white">
+            <Card className="bg-white border border-orange-200 shadow-sm hover:shadow-md hover:bg-orange-50 transition-all duration-300">
               <CardContent className="p-6 sm:p-8">
                 <div className="flex items-center justify-center mb-4">
-                  <Clock className="h-6 w-6 sm:h-8 sm:w-8 text-orange-400" />
+                  <Clock className="h-6 w-6 sm:h-8 sm:w-8 text-orange-500" />
                 </div>
                 <div className="mb-2 text-center">
-                  <p className="text-sm text-slate-300 mb-2">Next live class starts in:</p>
+                  <p className="text-sm text-slate-600 mb-2">Next live class starts in:</p>
                   <CountdownTimer />
                 </div>
-                <p className="text-slate-300 text-sm sm:text-base text-center">Physics - Wave Optics</p>
+                <p className="text-slate-600 text-sm sm:text-base text-center">Physics - Wave Optics</p>
               </CardContent>
             </Card>
 
-            <Card className="bg-slate-700 border-slate-600 text-white">
+            <Card className="bg-white border border-orange-200 shadow-sm hover:shadow-md hover:bg-orange-50 transition-all duration-300">
               <CardContent className="p-6 sm:p-8">
                 <div className="flex items-center justify-center mb-4">
-                  <Target className="h-6 w-6 sm:h-8 sm:w-8 text-blue-400" />
+                  <Target className="h-6 w-6 sm:h-8 sm:w-8 text-orange-500" />
                 </div>
-                <div className="text-2xl sm:text-3xl font-bold text-blue-400 mb-2">
+                <div className="text-2xl sm:text-3xl font-bold text-orange-600 mb-2">
                   <AnimatedCounter end={1247} />
                 </div>
-                <p className="text-slate-300 text-sm sm:text-base">Doubts solved today</p>
+                <p className="text-slate-600 text-sm sm:text-base">Doubts solved today</p>
               </CardContent>
             </Card>
           </div>
@@ -524,18 +496,18 @@ export default function MotionAcademyLanding() {
       </section>
 
       {/* Final CTA Section */}
-      <section className="py-12 sm:py-20 bg-gradient-to-br from-blue-600 to-blue-800 text-white">
+      <section className="py-12 sm:py-20 bg-white text-slate-800">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-2xl sm:text-3xl md:text-5xl font-bold mb-6">Ready to Start Your Success Journey?</h2>
-          <p className="text-lg sm:text-xl text-blue-100 mb-8 max-w-3xl mx-auto">
-            Join thousands of successful students who chose Motion Academy for their competitive exam preparation
+          <h2 className="text-2xl sm:text-3xl md:text-5xl font-bold text-slate-800 mb-6">Ready to Start Your Success Journey?</h2>
+          <p className="text-lg sm:text-xl text-slate-600 mb-8 max-w-3xl mx-auto">
+            Join thousands of successful students who chose Vector Academy for their competitive exam preparation
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
             <Link href="/trial">
               <Button
                 size="lg"
-                className="w-full sm:w-auto bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 text-lg font-semibold rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
+                className="w-full sm:w-auto bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white px-8 py-4 text-lg font-semibold rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
               >
                 Start Free Trial Today
                 <ArrowRight className="ml-2 h-5 w-5" />
@@ -545,24 +517,24 @@ export default function MotionAcademyLanding() {
               <Button
                 size="lg"
                 variant="outline"
-                className="w-full sm:w-auto border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-4 text-lg font-semibold rounded-lg bg-transparent"
+                className="w-full sm:w-auto border-2 border-orange-400 text-orange-600 hover:bg-orange-100 px-8 py-4 text-lg font-semibold rounded-lg bg-transparent"
               >
                 Find Nearest Center
               </Button>
             </Link>
           </div>
 
-          <div className="flex flex-wrap justify-center items-center gap-4 sm:gap-8 text-sm">
+          <div className="flex flex-wrap justify-center items-center gap-4 sm:gap-8 text-sm text-slate-700">
             <div className="flex items-center gap-2">
-              <CheckCircle className="h-4 w-4 sm:h-5 sm:w-5 text-green-400" />
+              <CheckCircle className="h-4 w-4 sm:h-5 sm:w-5 text-green-500" />
               <span>No Hidden Charges</span>
             </div>
             <div className="flex items-center gap-2">
-              <CheckCircle className="h-4 w-4 sm:h-5 sm:w-5 text-green-400" />
+              <CheckCircle className="h-4 w-4 sm:h-5 sm:w-5 text-green-500" />
               <span>7-Day Money Back Guarantee</span>
             </div>
             <div className="flex items-center gap-2">
-              <CheckCircle className="h-4 w-4 sm:h-5 sm:w-5 text-green-400" />
+              <CheckCircle className="h-4 w-4 sm:h-5 sm:w-5 text-green-500" />
               <span>24/7 Doubt Support</span>
             </div>
           </div>

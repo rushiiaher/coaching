@@ -59,12 +59,10 @@ export function SlidingCarousel({
       >
         {items.map((item) => (
           <div key={item.id} className="w-full flex-shrink-0 relative">
-            <Image
+            <img
               src={item.image}
               alt={`Slide ${item.id}`}
-              width={1920}
-              height={600}
-              className="w-full h-48 sm:h-64 md:h-80 lg:h-96 xl:h-[500px] object-contain bg-gradient-to-r from-orange-500 to-red-500"
+              className="w-full h-auto max-h-[600px] object-contain"
             />
           </div>
         ))}

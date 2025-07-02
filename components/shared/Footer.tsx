@@ -10,10 +10,10 @@ export default function Footer() {
           {/* Company Info */}
           <div className="lg:col-span-2">
             <div className="text-2xl sm:text-3xl font-bold mb-4">
-              Motion<span className="text-orange-500">Academy</span>
+              Vector<span className="text-orange-500">Academy</span>
             </div>
             <p className="text-slate-300 mb-6 max-w-md leading-relaxed">
-              Motion Education Pvt. Ltd. is India's leading coaching institute for JEE, NEET, and competitive exam
+              Vector Education Pvt. Ltd. is India's leading coaching institute for JEE, NEET, and competitive exam
               preparation. Founded in 2006 in Kota, we have helped over 50,000 students achieve their dreams with our
               proven teaching methodology.
             </p>
@@ -154,7 +154,7 @@ export default function Footer() {
                 <div>
                   <p className="font-semibold text-white mb-1">Head Office</p>
                   <p className="text-sm leading-relaxed">
-                    Motion Education Pvt. Ltd.
+                    Vector Education Pvt. Ltd.
                     <br />
                     394-A, Talwandi, Kota
                     <br />
@@ -178,7 +178,7 @@ export default function Footer() {
                 <div>
                   <p className="font-semibold text-white">Email</p>
                   <a href="mailto:info@motion.ac.in" className="text-sm hover:text-orange-400 transition-colors">
-                    info@motion.ac.in
+                    info@vector.ac.in
                   </a>
                 </div>
               </div>
@@ -199,7 +199,7 @@ export default function Footer() {
         <div className="border-t border-slate-800 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <div className="text-slate-400 text-sm text-center md:text-left">
-              <p>&copy; 2024 Motion Education Pvt. Ltd. All rights reserved.</p>
+              <p>&copy; 2024 Vector Education Pvt. Ltd. All rights reserved.</p>
               <p className="mt-1">CIN: U80302RJ2006PTC024625 | GSTIN: 08AABCM1234F1Z5</p>
             </div>
 

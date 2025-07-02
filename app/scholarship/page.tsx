@@ -24,7 +24,7 @@ export default function ScholarshipPage() {
 
   const scholarshipPrograms = [
     {
-      title: "MOST (Motion Open Scholarship Test)",
+      title: "MOST (Vector Open Scholarship Test)",
       subtitle: "Merit-based Scholarship Program",
       maxScholarship: "Up to 90%",
       eligibility: "Class 8th to 12th Pass",
@@ -81,15 +81,15 @@ export default function ScholarshipPage() {
       name: "Aarav Sharma",
       scholarship: "90% MOST Scholarship",
       achievement: "JEE Advanced AIR 45",
-      image: "/placeholder.svg?height=80&width=80",
-      quote: "MOST scholarship made my IIT dream affordable. Forever grateful to Motion Academy.",
+      image: "/imgMotion/Testimonials/stud1.jpeg",
+      quote: "MOST scholarship made my IIT dream affordable. Forever grateful to Vector Academy.",
       background: "Farmer's son from Rajasthan",
     },
     {
       name: "Priya Patel",
       scholarship: "75% Academic Excellence",
       achievement: "NEET AIR 156",
-      image: "/placeholder.svg?height=80&width=80",
+      image: "/imgMotion/Testimonials/stud4.jpeg",
       quote: "The scholarship program helped me focus on studies without financial stress.",
       background: "Single mother family",
     },
@@ -97,8 +97,8 @@ export default function ScholarshipPage() {
       name: "Rohit Kumar",
       scholarship: "85% MOST Scholarship",
       achievement: "JEE Main 99.8%ile",
-      image: "/placeholder.svg?height=80&width=80",
-      quote: "Motion's scholarship changed my life. Now I'm studying at IIT Delhi.",
+      image: "/imgMotion/Testimonials/stud3.jpeg",
+      quote: "Vector's scholarship changed my life. Now I'm studying at IIT Delhi.",
       background: "Daily wage worker's son",
     },
   ]
@@ -109,7 +109,7 @@ export default function ScholarshipPage() {
       criteria: [
         "Students from Class 8th to 12th Pass",
         "Minimum 60% marks in previous class",
-        "Valid for all Motion Academy programs",
+        "Valid for all Vector Academy programs",
         "Test performance based selection",
         "No income limit restrictions",
       ],
@@ -385,35 +385,35 @@ export default function ScholarshipPage() {
       </section>
 
       {/* Important Dates */}
-      <section className="py-20 bg-gradient-to-br from-blue-600 to-blue-800 text-white">
+      <section className="py-20 bg-gradient-to-br from-[#FFF9E6] to-[#FFEFD6]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold mb-6">Important Dates & Information</h2>
-            <p className="text-xl text-blue-100 max-w-3xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold mb-6 text-slate-800">Important Dates & Information</h2>
+            <p className="text-xl text-slate-700 max-w-3xl mx-auto">
               Stay updated with scholarship test dates and application deadlines
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div className="text-center p-6 bg-white/10 rounded-lg backdrop-blur-sm">
-              <Calendar className="h-12 w-12 text-blue-300 mx-auto mb-4" />
-              <h3 className="text-xl font-bold mb-3">MOST Test Dates</h3>
-              <p className="text-blue-100 mb-2">Every 2nd Sunday of the month</p>
-              <p className="text-white font-semibold">Next Test: 14th January 2024</p>
+            <div className="text-center p-6 bg-white/60 rounded-lg shadow-sm">
+              <Calendar className="h-12 w-12 text-orange-600 mx-auto mb-4" />
+              <h3 className="text-xl font-bold mb-3 text-slate-800">MOST Test Dates</h3>
+              <p className="text-slate-700 mb-2">Every 2nd Sunday of the month</p>
+              <p className="text-slate-800 font-semibold">Next Test: 14th January 2024</p>
             </div>
 
-            <div className="text-center p-6 bg-white/10 rounded-lg backdrop-blur-sm">
-              <Clock className="h-12 w-12 text-blue-300 mx-auto mb-4" />
-              <h3 className="text-xl font-bold mb-3">Application Deadline</h3>
-              <p className="text-blue-100 mb-2">5 days before test date</p>
-              <p className="text-white font-semibold">Register by: 9th January 2024</p>
+            <div className="text-center p-6 bg-white/60 rounded-lg shadow-sm">
+              <Clock className="h-12 w-12 text-orange-600 mx-auto mb-4" />
+              <h3 className="text-xl font-bold mb-3 text-slate-800">Application Deadline</h3>
+              <p className="text-slate-700 mb-2">5 days before test date</p>
+              <p className="text-slate-800 font-semibold">Register by: 9th January 2024</p>
             </div>
 
-            <div className="text-center p-6 bg-white/10 rounded-lg backdrop-blur-sm">
-              <Percent className="h-12 w-12 text-blue-300 mx-auto mb-4" />
-              <h3 className="text-xl font-bold mb-3">Result Declaration</h3>
-              <p className="text-blue-100 mb-2">Within 48 hours of test</p>
-              <p className="text-white font-semibold">SMS & Email notification</p>
+            <div className="text-center p-6 bg-white/60 rounded-lg shadow-sm">
+              <Percent className="h-12 w-12 text-orange-600 mx-auto mb-4" />
+              <h3 className="text-xl font-bold mb-3 text-slate-800">Result Declaration</h3>
+              <p className="text-slate-700 mb-2">Within 48 hours of test</p>
+              <p className="text-slate-800 font-semibold">SMS & Email notification</p>
             </div>
           </div>
         </div>

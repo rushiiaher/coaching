@@ -164,7 +164,7 @@ export default function OnlineCoursesPage() {
 
             <h1 className="text-4xl md:text-6xl font-bold text-slate-800 mb-6">
               Learn from Home
-              <span className="block text-blue-600">Motion's Digital Learning Platform</span>
+              <span className="block text-blue-600">Vector's Digital Learning Platform</span>
             </h1>
 
             <p className="text-xl text-slate-600 mb-8 max-w-3xl mx-auto">
@@ -363,21 +363,21 @@ export default function OnlineCoursesPage() {
       </section>
 
       {/* Online Learning Features */}
-      <section className="py-20 bg-gradient-to-br from-blue-600 to-purple-800 text-white">
+      <section className="py-20 bg-gradient-to-br from-[#E6F7FF] to-[#D1EBFF]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold mb-6">Online Learning Features</h2>
-            <p className="text-xl text-blue-100 max-w-3xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold mb-6 text-slate-800">Online Learning Features</h2>
+            <p className="text-xl text-slate-700 max-w-3xl mx-auto">
               Advanced features designed to enhance your online learning experience
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {onlineFeatures.map((feature, index) => (
-              <div key={index} className="text-center p-6 bg-white/10 rounded-lg backdrop-blur-sm">
-                <feature.icon className="h-12 w-12 text-blue-300 mx-auto mb-4" />
-                <h3 className="text-xl font-bold mb-3">{feature.title}</h3>
-                <p className="text-blue-100">{feature.description}</p>
+              <div key={index} className="text-center p-6 bg-white/60 rounded-lg shadow-sm">
+                <feature.icon className="h-12 w-12 text-blue-600 mx-auto mb-4" />
+                <h3 className="text-xl font-bold mb-3 text-slate-800">{feature.title}</h3>
+                <p className="text-slate-700">{feature.description}</p>
               </div>
             ))}
           </div>
@@ -399,21 +399,21 @@ export default function OnlineCoursesPage() {
               {
                 name: "Ankit Sharma",
                 result: "JEE Advanced AIR 234",
-                image: "/placeholder.svg?height=80&width=80",
+                image: "/imgMotion/Testimonials/stud1.jpeg",
                 quote: "Online classes gave me the flexibility to study at my own pace while getting expert guidance.",
                 location: "Delhi",
               },
               {
                 name: "Priya Gupta",
                 result: "NEET AIR 456",
-                image: "/placeholder.svg?height=80&width=80",
+                image: "/imgMotion/Testimonials/stud3.jpeg",
                 quote: "The recorded lectures helped me revise concepts multiple times. Great learning experience!",
                 location: "Mumbai",
               },
               {
                 name: "Rohit Patel",
                 result: "JEE Main 99.2%ile",
-                image: "/placeholder.svg?height=80&width=80",
+                image: "/imgMotion/Testimonials/stud4.jpeg",
                 quote: "Interactive doubt sessions and mobile app made learning convenient and effective.",
                 location: "Ahmedabad",
               },
@@ -451,7 +451,7 @@ export default function OnlineCoursesPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-slate-800 mb-6">Start Your Online Learning Journey</h2>
           <p className="text-xl text-slate-600 mb-8">
-            Join thousands of students learning from the comfort of their homes with Motion Academy
+            Join thousands of students learning from the comfort of their homes with Vector Academy
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">

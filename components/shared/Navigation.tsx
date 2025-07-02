@@ -55,7 +55,7 @@ export default function Navigation() {
           <div className="flex items-center">
             <div className="flex-shrink-0">
               <Link href="/" className="text-xl sm:text-2xl font-bold text-slate-800">
-                Motion<span className="text-orange-500">Academy</span>
+                Vector<span className="text-orange-500">Academy</span>
               </Link>
             </div>
           </div>

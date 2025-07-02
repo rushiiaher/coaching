@@ -14,7 +14,7 @@ export default function CentersPage() {
     {
       city: "Kota",
       state: "Rajasthan",
-      address: "Motion Education Pvt. Ltd, 394-A, Talwandi, Kota, Rajasthan - 324005",
+      address: "Vector Education Pvt. Ltd, 394-A, Talwandi, Kota, Rajasthan - 324005",
       established: "2006 - Our Flagship Center",
       specialties: ["JEE Advanced", "NEET", "Residential Programs"],
       contact: "+91-744-2423456",
@@ -27,7 +27,7 @@ export default function CentersPage() {
     {
       city: "Delhi",
       state: "Delhi",
-      address: "Motion Education, Laxmi Nagar, Delhi - 110092",
+      address: "Vector Education, Laxmi Nagar, Delhi - 110092",
       established: "2015",
       specialties: ["JEE Main", "NEET", "Foundation"],
       contact: "+91-11-4567-8901",
@@ -40,7 +40,7 @@ export default function CentersPage() {
     {
       city: "Mumbai",
       state: "Maharashtra",
-      address: "Motion Education, Andheri West, Mumbai - 400058",
+      address: "Vector Education, Andheri West, Mumbai - 400058",
       established: "2018",
       specialties: ["JEE Main", "NEET", "Olympiad"],
       contact: "+91-22-2345-6789",
@@ -53,7 +53,7 @@ export default function CentersPage() {
     {
       city: "Bangalore",
       state: "Karnataka",
-      address: "Motion Education, Koramangala, Bangalore - 560034",
+      address: "Vector Education, Koramangala, Bangalore - 560034",
       established: "2019",
       specialties: ["JEE Main", "NEET", "Foundation"],
       contact: "+91-80-1234-5678",
@@ -66,7 +66,7 @@ export default function CentersPage() {
     {
       city: "Hyderabad",
       state: "Telangana",
-      address: "Motion Education, Madhapur, Hyderabad - 500081",
+      address: "Vector Education, Madhapur, Hyderabad - 500081",
       established: "2020",
       specialties: ["JEE Main", "NEET", "Foundation"],
       contact: "+91-40-9876-5432",
@@ -79,7 +79,7 @@ export default function CentersPage() {
     {
       city: "Pune",
       state: "Maharashtra",
-      address: "Motion Education, Baner, Pune - 411045",
+      address: "Vector Education, Baner, Pune - 411045",
       established: "2021",
       specialties: ["JEE Main", "NEET", "Foundation"],
       contact: "+91-20-8765-4321",

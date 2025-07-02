@@ -307,38 +307,38 @@ export default function PayFeePage() {
       </section>
 
       {/* Payment Support */}
-      <section className="py-20 bg-gradient-to-br from-blue-600 to-blue-800 text-white">
+      <section className="py-20 bg-gradient-to-br from-[#EFF8FF] to-[#D6EBFF]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold mb-6">Need Help with Payment?</h2>
-            <p className="text-xl text-blue-100 max-w-3xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold mb-6 text-slate-800">Need Help with Payment?</h2>
+            <p className="text-xl text-slate-700 max-w-3xl mx-auto">
               Our support team is available to assist you with any payment-related queries
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="text-center p-6 bg-white/10 rounded-lg backdrop-blur-sm">
-              <Phone className="h-12 w-12 text-blue-300 mx-auto mb-4" />
-              <h3 className="text-xl font-bold mb-3">Call Support</h3>
-              <p className="text-blue-100 mb-3">Speak directly with our payment support team</p>
-              <p className="text-white font-semibold">+91-744-6677889</p>
-              <p className="text-blue-200 text-sm">Mon-Sat: 9 AM - 8 PM</p>
+            <div className="text-center p-6 bg-white/60 rounded-lg shadow-sm">
+              <Phone className="h-12 w-12 text-blue-600 mx-auto mb-4" />
+              <h3 className="text-xl font-bold mb-3 text-slate-800">Call Support</h3>
+              <p className="text-slate-700 mb-3">Speak directly with our payment support team</p>
+              <p className="text-slate-800 font-semibold">+91-744-6677889</p>
+              <p className="text-slate-600 text-sm">Mon-Sat: 9 AM - 8 PM</p>
             </div>
 
-            <div className="text-center p-6 bg-white/10 rounded-lg backdrop-blur-sm">
-              <Mail className="h-12 w-12 text-blue-300 mx-auto mb-4" />
-              <h3 className="text-xl font-bold mb-3">Email Support</h3>
-              <p className="text-blue-100 mb-3">Send us your payment queries via email</p>
-              <p className="text-white font-semibold">payments@motion.ac.in</p>
-              <p className="text-blue-200 text-sm">Response within 24 hours</p>
+            <div className="text-center p-6 bg-white/60 rounded-lg shadow-sm">
+              <Mail className="h-12 w-12 text-blue-600 mx-auto mb-4" />
+              <h3 className="text-xl font-bold mb-3 text-slate-800">Email Support</h3>
+              <p className="text-slate-700 mb-3">Send us your payment queries via email</p>
+              <p className="text-slate-800 font-semibold">payments@motion.ac.in</p>
+              <p className="text-slate-600 text-sm">Response within 24 hours</p>
             </div>
 
-            <div className="text-center p-6 bg-white/10 rounded-lg backdrop-blur-sm">
-              <MessageCircle className="h-12 w-12 text-blue-300 mx-auto mb-4" />
-              <h3 className="text-xl font-bold mb-3">Live Chat</h3>
-              <p className="text-blue-100 mb-3">Get instant help through live chat</p>
-              <Button className="bg-white text-blue-600 hover:bg-blue-50 mt-2">Start Chat</Button>
-              <p className="text-blue-200 text-sm mt-2">Available 24/7</p>
+            <div className="text-center p-6 bg-white/60 rounded-lg shadow-sm">
+              <MessageCircle className="h-12 w-12 text-blue-600 mx-auto mb-4" />
+              <h3 className="text-xl font-bold mb-3 text-slate-800">Live Chat</h3>
+              <p className="text-slate-700 mb-3">Get instant help through live chat</p>
+              <Button className="bg-blue-600 text-white hover:bg-blue-700 mt-2">Start Chat</Button>
+              <p className="text-slate-600 text-sm mt-2">Available 24/7</p>
             </div>
           </div>
         </div>

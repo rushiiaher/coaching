@@ -108,7 +108,7 @@ export default function BookDemoPage() {
       subject: "Physics",
       qualification: "IIT Delhi, PhD",
       experience: "15+ Years",
-      image: "/placeholder.svg?height=100&width=100",
+      image: "/imgMotion/Proffesors/pro1.jpeg",
       specialization: "Mechanics & Thermodynamics",
     },
     {
@@ -116,7 +116,7 @@ export default function BookDemoPage() {
       subject: "Chemistry",
       qualification: "AIIMS Delhi, MD",
       experience: "12+ Years",
-      image: "/placeholder.svg?height=100&width=100",
+      image: "/imgMotion/Proffesors/prof2.jpeg",
       specialization: "Organic Chemistry",
     },
     {
@@ -124,7 +124,7 @@ export default function BookDemoPage() {
       subject: "Mathematics",
       qualification: "IIT Kanpur, M.Tech",
       experience: "18+ Years",
-      image: "/placeholder.svg?height=100&width=100",
+      image: "/imgMotion/Proffesors/prof3.jpeg",
       specialization: "Calculus & Algebra",
     },
   ]
@@ -440,11 +440,11 @@ export default function BookDemoPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-gradient-to-br from-blue-600 to-blue-800 text-white">
+      <section className="py-20 bg-gradient-to-br from-[#E6F0FF] to-[#D1E2FF]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">Ready to Experience Excellence?</h2>
-          <p className="text-xl text-blue-100 mb-8">
-            Book your free demo class today and discover why thousands of students choose Motion Academy
+          <h2 className="text-3xl md:text-4xl font-bold mb-6 text-slate-800">Ready to Experience Excellence?</h2>
+          <p className="text-xl text-slate-700 mb-8">
+            Book your free demo class today and discover why thousands of students choose Vector Academy
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
@@ -454,23 +454,23 @@ export default function BookDemoPage() {
             <Button
               size="lg"
               variant="outline"
-              className="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-4 text-lg font-semibold bg-transparent"
+              className="border-2 border-blue-600 text-blue-600 hover:bg-blue-50 px-8 py-4 text-lg font-semibold bg-transparent"
             >
               Call for Assistance
             </Button>
           </div>
 
-          <div className="flex flex-wrap justify-center items-center gap-6 text-sm text-blue-100">
+          <div className="flex flex-wrap justify-center items-center gap-6 text-sm text-slate-700">
             <div className="flex items-center gap-2">
-              <CheckCircle className="h-4 w-4 text-green-400" />
+              <CheckCircle className="h-4 w-4 text-green-600" />
               <span>100% Free Demo</span>
             </div>
             <div className="flex items-center gap-2">
-              <CheckCircle className="h-4 w-4 text-green-400" />
+              <CheckCircle className="h-4 w-4 text-green-600" />
               <span>No Obligation</span>
             </div>
             <div className="flex items-center gap-2">
-              <CheckCircle className="h-4 w-4 text-green-400" />
+              <CheckCircle className="h-4 w-4 text-green-600" />
               <span>Expert Faculty</span>
             </div>
           </div>
@@ -483,7 +483,7 @@ export default function BookDemoPage() {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div className="col-span-1 md:col-span-2">
               <div className="text-3xl font-bold mb-4">
-                Motion<span className="text-orange-500">Academy</span>
+                Vector<span className="text-orange-500">Academy</span>
               </div>
               <p className="text-slate-300 mb-6 max-w-md">
                 Experience our world-class teaching methodology through a free demo class. No commitments, just
@@ -517,7 +517,7 @@ export default function BookDemoPage() {
           </div>
 
           <div className="border-t border-slate-800 mt-12 pt-8 text-center text-slate-400">
-            <p>&copy; 2024 Motion Academy. All rights reserved. | Experience excellence through our demo classes</p>
+            <p>&copy; 2024 Vector Academy. All rights reserved. | Experience excellence through our demo classes</p>
           </div>
         </div>
       </footer>

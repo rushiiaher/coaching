@@ -91,21 +91,21 @@ export default function JEEClassroomPage() {
     {
       name: "Arjun Gupta",
       rank: "AIR 1 JEE Advanced 2024",
-      image: "/imgMotion/Testimonials/testimonial1.webp",
+      image: "/imgMotion/Testimonials/stud1.jpeg",
       college: "IIT Bombay - CSE",
       quote: "Motion's problem-solving approach and regular tests were key to my success.",
     },
     {
       name: "Karan Sharma",
       rank: "AIR 23 JEE Advanced 2024",
-      image: "/imgMotion/Testimonials/testimonial2.webp",
+      image: "/imgMotion/Testimonials/stud2.jpeg",
       college: "IIT Delhi - Mechanical",
       quote: "The faculty's guidance and comprehensive study material helped me achieve my goal.",
     },
     {
       name: "Sneha Patel",
       rank: "AIR 89 JEE Advanced 2024",
-      image: "/imgMotion/Testimonials/testimonial3.webp",
+      image: "/imgMotion/Testimonials/stud3.jpeg",
       college: "IIT Kanpur - Chemical",
       quote: "Motion's structured approach made complex concepts easy to understand.",
     },
@@ -333,11 +333,11 @@ export default function JEEClassroomPage() {
       </section>
 
       {/* Why Choose JEE at Motion */}
-      <section className="py-20 bg-gradient-to-br from-blue-600 to-blue-800 text-white">
+      <section className="py-20 bg-gradient-to-br from-[#E4FAFF] to-[#BBF2FF]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold mb-6">Why Choose Motion for JEE?</h2>
-            <p className="text-xl text-blue-100 max-w-3xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold mb-6 text-slate-800">Why Choose Motion for JEE?</h2>
+            <p className="text-xl text-slate-700 max-w-3xl mx-auto">
               Advanced teaching methodology and comprehensive preparation strategy for JEE success
             </p>
           </div>
@@ -375,10 +375,10 @@ export default function JEEClassroomPage() {
                 description: "Focused approach for consistent rank improvement",
               },
             ].map((feature, index) => (
-              <div key={index} className="text-center p-6 bg-white/10 rounded-lg backdrop-blur-sm">
-                <feature.icon className="h-12 w-12 text-blue-300 mx-auto mb-4" />
-                <h3 className="text-xl font-bold mb-3">{feature.title}</h3>
-                <p className="text-blue-100">{feature.description}</p>
+              <div key={index} className="text-center p-6 bg-white/60 rounded-lg shadow-sm">
+                <feature.icon className="h-12 w-12 text-blue-600 mx-auto mb-4" />
+                <h3 className="text-xl font-bold mb-3 text-slate-800">{feature.title}</h3>
+                <p className="text-slate-700">{feature.description}</p>
               </div>
             ))}
           </div>
@@ -390,7 +390,7 @@ export default function JEEClassroomPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-slate-800 mb-6">Ready to Crack JEE?</h2>
           <p className="text-xl text-slate-600 mb-8">
-            Join thousands of successful students who achieved their IIT dreams with Motion Academy
+            Join thousands of successful students who achieved their IIT dreams with Vector Academy
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">

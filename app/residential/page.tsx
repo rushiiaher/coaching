@@ -322,11 +322,11 @@ export default function ResidentialPage() {
       </section>
 
       {/* Why Choose Residential */}
-      <section className="py-20 bg-gradient-to-br from-blue-600 to-blue-800 text-white">
+      <section className="py-20 bg-gradient-to-br from-[#F0F7FF] to-[#E1EFFF]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold mb-6">Why Choose Residential Program?</h2>
-            <p className="text-xl text-blue-100 max-w-3xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold mb-6 text-slate-800">Why Choose Residential Program?</h2>
+            <p className="text-xl text-slate-700 max-w-3xl mx-auto">
               Experience focused learning in a supportive environment designed for success
             </p>
           </div>
@@ -364,10 +364,10 @@ export default function ResidentialPage() {
                 description: "Higher success rates compared to day-scholar programs",
               },
             ].map((benefit, index) => (
-              <div key={index} className="text-center p-6 bg-white/10 rounded-lg backdrop-blur-sm">
-                <benefit.icon className="h-12 w-12 text-orange-400 mx-auto mb-4" />
-                <h3 className="text-xl font-bold mb-3">{benefit.title}</h3>
-                <p className="text-blue-100">{benefit.description}</p>
+              <div key={index} className="text-center p-6 bg-white/60 rounded-lg shadow-sm">
+                <benefit.icon className="h-12 w-12 text-orange-600 mx-auto mb-4" />
+                <h3 className="text-xl font-bold mb-3 text-slate-800">{benefit.title}</h3>
+                <p className="text-slate-700">{benefit.description}</p>
               </div>
             ))}
           </div>

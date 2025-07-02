@@ -30,7 +30,7 @@ export default function ResultsPage() {
       exam: "JEE Advanced",
       rank: "AIR 1",
       college: "IIT Bombay - Computer Science",
-      image: "/imgMotion/Testimonials/testimonial1.webp",
+      image: "/imgMotion/Testimonials/stud1.jpeg",
       program: "2-Year Classroom Program",
       center: "Kota",
     },
@@ -39,7 +39,7 @@ export default function ResultsPage() {
       exam: "NEET",
       rank: "AIR 1",
       college: "AIIMS Delhi - MBBS",
-      image: "/imgMotion/Testimonials/testimonial2.webp",
+      image: "/imgMotion/Testimonials/stud2.jpeg",
       program: "2-Year Classroom Program",
       center: "Delhi",
     },
@@ -48,7 +48,7 @@ export default function ResultsPage() {
       exam: "JEE Advanced",
       rank: "AIR 3",
       college: "IIT Delhi - Electrical Engineering",
-      image: "/imgMotion/Testimonials/testimonial3.webp",
+      image: "/imgMotion/Testimonials/stud3.jpeg",
       program: "Residential Program",
       center: "Kota",
     },
@@ -57,7 +57,7 @@ export default function ResultsPage() {
       exam: "NEET",
       rank: "AIR 5",
       college: "JIPMER Puducherry - MBBS",
-      image: "/imgMotion/Testimonials/testimonial4.webp",
+      image: "/imgMotion/Testimonials/stud4.jpeg",
       program: "Online Live Classes",
       center: "Mumbai",
     },
@@ -278,33 +278,33 @@ export default function ResultsPage() {
       </section>
 
       {/* Year-wise Progress */}
-      <section className="py-20 bg-gradient-to-br from-blue-600 to-blue-800 text-white">
+      <section className="py-20 bg-gradient-to-br from-[#E6F9F0] to-[#D1F2E6]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold mb-6">Year-wise Progress</h2>
-            <p className="text-xl text-blue-100 max-w-3xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold mb-6 text-slate-800">Year-wise Progress</h2>
+            <p className="text-xl text-slate-700 max-w-3xl mx-auto">
               Consistent growth in student selections over the years
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-5 gap-6">
             {yearWiseProgress.map((year, index) => (
-              <Card key={index} className="bg-white/10 border-white/20 backdrop-blur-sm text-white">
+              <Card key={index} className="bg-white/60 border-green-100 shadow-sm">
                 <CardContent className="p-6 text-center">
-                  <div className="text-2xl font-bold mb-3">{year.year}</div>
+                  <div className="text-2xl font-bold mb-3 text-slate-800">{year.year}</div>
                   <div className="space-y-2">
                     <div>
-                      <div className="text-sm text-blue-200">JEE</div>
-                      <div className="text-lg font-bold text-blue-300">{year.jeeSelections}</div>
+                      <div className="text-sm text-blue-600">JEE</div>
+                      <div className="text-lg font-bold text-blue-700">{year.jeeSelections}</div>
                     </div>
                     <div>
-                      <div className="text-sm text-green-200">NEET</div>
-                      <div className="text-lg font-bold text-green-300">{year.neetSelections}</div>
+                      <div className="text-sm text-green-600">NEET</div>
+                      <div className="text-lg font-bold text-green-700">{year.neetSelections}</div>
                     </div>
                   </div>
                   {index > 0 && (
                     <div className="mt-3">
-                      <TrendingUp className="h-5 w-5 text-green-400 mx-auto" />
+                      <TrendingUp className="h-5 w-5 text-green-600 mx-auto" />
                     </div>
                   )}
                 </CardContent>
@@ -380,7 +380,7 @@ export default function ResultsPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-slate-800 mb-6">Be Part of Our Success Story</h2>
           <p className="text-xl text-slate-600 mb-8">
-            Join thousands of successful students who achieved their dreams with Motion Academy
+            Join thousands of successful students who achieved their dreams with Vector Academy
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
